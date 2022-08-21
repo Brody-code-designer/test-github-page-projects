@@ -35,3 +35,4 @@ jobs:
           echo repository name ${{ github.repository }}
           cd ${{ github.workspace }}/frontend
           ls
+          npm run build
